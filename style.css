@@ -1,0 +1,45 @@
+p {
+    font-size: 15px;
+}
+
+p:nth-child(odd){
+    font-size: 10dv
+}
+
+img {
+    height: 20vh;
+    width: 30vw;
+}
+
+h3 {
+    color:red;
+}
+
+h1{
+    color:blue;
+    background-color: green;
+}
+
+#bananas{
+    color: blueviolet;
+}
+
+.Heading{
+    color:pink;
+}
+
+li {
+    background-color: yellowgreen;
+}
+
+/* nth-child
+    2nd-child
+    1st-child
+    n is just a placeholder for a number
+ */
+ li:nth-child(even){
+    background-color: darksalmon;
+ }
+ li:nth-child(even)::marker{
+    color: blue;
+ }
